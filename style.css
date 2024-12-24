@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(20,29,46);
+}
+.nav_links{
+    border-width: 0px;
+    
+    transition:  all 0.5s;
+}
+.nav_links:hover{ 
+    border-bottom: 1px solid #008cff;
+   
+
+}
+/* ----------------Intro Start-------------- */
+#my-Name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    font-size: 2em;
+    background: linear-gradient(360deg,#0044ff, white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.377), 2px 2px 3px rgba(255, 255, 255, 0.219);
+    color: white;
+}
+#intro_hello{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    font-size: 4em;
+    color: white;
+}
+#I-am{
+    color: white;
+}
+/* -------------------------card section start-------------------- */
+li::marker{
+    color: #0044ff;
+}
+.card_body{
+    background: linear-gradient(45deg,#004cff, rgb(8, 8, 8) , rgb(0, 0, 0));
+    border: none;
+    box-shadow: 6px 7px 3px black;
+}
+
