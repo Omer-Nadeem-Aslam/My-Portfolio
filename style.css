@@ -44,4 +44,8 @@ li::marker{
     border: none;
     box-shadow: 6px 7px 3px black;
 }
+/* About section */
+strong{
+    color: white;
+}
 
