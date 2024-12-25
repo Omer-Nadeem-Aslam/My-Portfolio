@@ -1,3 +1,5 @@
 @media  (min-width: 0px) And (max-width: 747px) {
-  
+  body{
+    overflow-x: hidden;
+  }
 }
